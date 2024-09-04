@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Tabela</title>
+    
+    <!-- CSS para estilizar a tabela -->
+    <style>
+        /* Define que a tabela ocupará 100% da largura do elemento pai */
+        table {
+            width: 100%;
+            border-collapse: collapse; /* Remove os espaços entre as bordas das células */
+        }
+
+        /* Estiliza as células do cabeçalho e do corpo */
+        th, td {
+            padding: 10px; /* Espaçamento interno das células */
+            border: 1px solid #ddd; /* Borda das células */
+            text-align: left; /* Alinha o texto à esquerda */
+        }
+
+        /* Estiliza as células do cabeçalho */
+        th {
+            background-color: #f4f4f4; /* Cor de fundo do cabeçalho */
+        }
+
+        /* Define um fundo diferente para as linhas pares (zebrado) */
+        tr:nth-child(even) {
+            background-color: #f9f9f9; /* Cor de fundo para as linhas pares */
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Título principal da página -->
+    <h1>Exemplo de Tabela</h1>
+
+    <!-- Início da tabela -->
+    <table>
+        <!-- Cabeçalho da tabela -->
+        <thead>
+            <tr>
+                <!-- Cabeçalhos das colunas -->
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Cidade</th>
+                <th>gabriela</th>
+            </tr>
+        </thead>
+
+        <!-- Corpo da tabela -->
+        <tbody>
+            <!-- Linha de dados 1 -->
+            <tr>
+                <!-- Células de dados -->
+                <td>Maria</td>
+                <td>30</td>
+                <td>São Paulo</td>
+                <td>amo ela</td>
+        
+            </tr>
+            <!-- Linha de dados 2 -->
+            <tr>
+                <td>João</td>
+                <td>25</td>
+                <td>Rio de Janeiro</td>
+            </tr>
+            <!-- Linha de dados 3 -->
+            <tr>
+                <td>Ana</td>
+                <td>22</td>
+                <td>Belo Horizonte</td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- Fim da tabela -->
+
+    <p><a href="ancoras.html">ir para pagina1 </a></p>
+
+</body>
+
+</html>
