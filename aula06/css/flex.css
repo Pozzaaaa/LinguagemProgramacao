@@ -1,0 +1,22 @@
+.box{
+    display: flex;
+    flex-direction: row; /* Eixo da principal se movera para a direita da página */
+    flex-wrap: wrap;  /*para gerar uma quebra automatic de linha */
+    justify-content: center; /* Alinhamento na horizontal */
+    align-items: center; /* Alinhamento na vertical */
+    width: 100%;
+    
+}
+
+.box .car img {
+    width: 50%;
+}
+
+body {
+    margin-left: 10px;
+}
+
+.box .car {
+    border: 1px solid black;
+    width: 170px;
+}
